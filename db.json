@@ -1,9 +1,184 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "noutbooks": [
+    {
+      "id": "2",
+      "name": "ASUS ROG Strix G15",
+      "processor": "AMD Ryzen 9 5900HX",
+      "ram": "16GB",
+      "price": 1500,
+      "graphic_card": "NVIDIA GeForce RTX 3070",
+      "memory": "1TB SSD",
+      "imgSrc": "../Assets/media/rogstrix.jpg"
+    },
+    {
+      "name": "ASUS TUF Dash F15",
+      "processor": "Intel Core i7-11370H",
+      "ram": "8GB",
+      "price": "110",
+      "graphic_card": "NVIDIA GeForce RTX 3050",
+      "memory": "512GB SSD",
+      "imgSrc": "../Assets/media/asustuf15.webp",
+      "id": "3"
+    },
+    {
+      "id": "4",
+      "name": "ASUS VivoBook 15",
+      "processor": "Intel Core i5-1135G7",
+      "ram": "8GB",
+      "price": 800,
+      "graphic_card": "Intel Iris Xe",
+      "memory": "512GB SSD",
+      "imgSrc": "../Assets/media/orig.webp"
+    },
+    {
+      "id": "5",
+      "name": "ASUS ZenBook Duo 14",
+      "processor": "Intel Core i7-1165G7",
+      "ram": "16GB",
+      "price": 1300,
+      "graphic_card": "NVIDIA GeForce MX450",
+      "memory": "1TB SSD",
+      "imgSrc": "../Assets/media/zenbookduo14.webp"
+    },
+    {
+      "id": "6",
+      "name": "ASUS ROG Zephyrus G14",
+      "processor": "AMD Ryzen 7 5800HS",
+      "ram": "16GB",
+      "price": 1400,
+      "graphic_card": "NVIDIA GeForce RTX 3060",
+      "memory": "1TB SSD",
+      "imgSrc": "../Assets/media/zephyrusg14.webp"
+    },
+    {
+      "id": "7",
+      "name": "ASUS TUF Gaming A15",
+      "processor": "AMD Ryzen 5 4600H",
+      "ram": "8GB",
+      "price": 1000,
+      "graphic_card": "NVIDIA GeForce GTX 1650",
+      "memory": "512GB SSD",
+      "imgSrc": "../Assets/media/asustufa15.webp"
+    },
+    {
+      "id": "8",
+      "name": "ASUS VivoBook S14",
+      "processor": "Intel Core i7-1165G7",
+      "ram": "16GB",
+      "price": 950,
+      "graphic_card": "Intel Iris Xe",
+      "memory": "512GB SSD",
+      "imgSrc": "../Assets/media/vivobooks14.png"
+    },
+    {
+      "id": "9",
+      "name": "ASUS ZenBook Pro 15",
+      "processor": "Intel Core i9-11900H",
+      "ram": "32GB",
+      "price": 2500,
+      "graphic_card": "NVIDIA GeForce RTX 3070",
+      "memory": "1TB SSD",
+      "imgSrc": "../Assets/media/kA5MkzwxjaC5rh6J_setting_xxx_0_90_end_2000.png"
+    },
+    {
+      "id": "10",
+      "name": "ASUS ROG Flow X13",
+      "processor": "AMD Ryzen 9 5900HS",
+      "ram": "16GB",
+      "price": 2000,
+      "graphic_card": "NVIDIA GeForce GTX 1650",
+      "memory": "1TB SSD",
+      "imgSrc": "../Assets/media/b5e829daae1f479f6cbf2a59006d9957.jpg"
+    },
+    {
+      "id": "11",
+      "name": "ASUS VivoBook Flip 14",
+      "processor": "Intel Core i5-1135G7",
+      "ram": "8GB",
+      "price": 700,
+      "graphic_card": "Intel Iris Xe",
+      "memory": "512GB SSD",
+      "imgSrc": "../Assets/media/9de03b9d-aa6c-448b-ab86-85a65ac580de.jpg"
+    },
+    {
+      "id": "12",
+      "name": "ASUS ZenBook Flip 13",
+      "processor": "Intel Core i7-1165G7",
+      "ram": "16GB",
+      "price": 1200,
+      "graphic_card": "Intel Iris Xe",
+      "memory": "512GB SSD",
+      "imgSrc": "https://cdn1.ozone.ru/s3/multimedia-s/6250838596.jpg"
+    },
+    {
+      "name": "ASUS ROG Strix Scar 17",
+      "processor": "AMD Ryzen 9 5900HX",
+      "ram": "32GB",
+      "price": "30000",
+      "graphic_card": "NVIDIA GeForce RTX 3080",
+      "memory": "2TB SSD",
+      "imgSrc": "https://cdn1.ozone.ru/s3/multimedia-s/6250838596.jpg",
+      "id": "13"
+    },
+    {
+      "id": "14",
+      "name": "ASUS VivoBook 17",
+      "processor": "Intel Core i5-1135G7",
+      "ram": "8GB",
+      "price": 900,
+      "graphic_card": "Intel Iris Xe",
+      "memory": "1TB HDD",
+      "imgSrc": "https://cdn1.ozone.ru/s3/multimedia-s/6250838596.jpg"
+    },
+    {
+      "id": "15",
+      "name": "ASUS ZenBook 13",
+      "processor": "AMD Ryzen 7 5700U",
+      "ram": "16GB",
+      "price": 1000,
+      "graphic_card": "AMD Radeon Vega 8",
+      "memory": "512GB SSD",
+      "imgSrc": "https://cdn1.ozone.ru/s3/multimedia-s/6250838596.jpg"
+    },
+    {
+      "id": "16",
+      "name": "ASUS ROG Zephyrus Duo 15",
+      "processor": "Intel Core i9-11900H",
+      "ram": "32GB",
+      "price": 3500,
+      "graphic_card": "NVIDIA GeForce RTX 3080",
+      "memory": "2TB SSD",
+      "imgSrc": "https://cdn1.ozone.ru/s3/multimedia-s/6250838596.jpg"
+    },
+    {
+      "id": "17",
+      "name": "ASUS TUF Dash F15",
+      "processor": "Intel Core i5-11300H",
+      "ram": "8GB",
+      "price": 950,
+      "graphic_card": "NVIDIA GeForce GTX 1650",
+      "memory": "512GB SSD",
+      "imgSrc": "https://cdn1.ozone.ru/s3/multimedia-s/6250838596.jpg"
+    },
+    {
+      "id": "18",
+      "name": "ASUS VivoBook 14",
+      "processor": "AMD Ryzen 5 3500U",
+      "ram": "8GB",
+      "price": 600,
+      "graphic_card": "AMD Radeon Vega 8",
+      "memory": "256GB SSD",
+      "imgSrc": "https://cdn1.ozone.ru/s3/multimedia-s/6250838596.jpg"
+    },
+    {
+      "id": "19",
+      "name": "ASUS ZenBook 14X OLED",
+      "processor": "Intel Core i7-1260P",
+      "ram": "16GB",
+      "price": 1600,
+      "graphic_card": "Intel Iris Xe",
+      "memory": "1TB SSD",
+      "imgSrc": "https://cdn1.ozone.ru/s3/multimedia-s/6250838596.jpg"
+    }
+  ]
 }
